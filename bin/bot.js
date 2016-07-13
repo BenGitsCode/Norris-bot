@@ -1,5 +1,3 @@
-# bin/bot.js
-
 'use strict';
 
 let NorrisBot = require('../lib/norrisbot');
@@ -13,4 +11,4 @@ let norrisbot = new NorrisBot({
  name: name
 });
 
-norrisbot.run(); 
+norrisbot.run();
